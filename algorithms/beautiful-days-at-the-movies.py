@@ -14,7 +14,7 @@ def beautifulDays(i, j, k):
     return res
 
 if __name__ == "__main__":
-    i, j, k = raw_input().strip().split(' ')
+    i, j, k = input().strip().split(' ')
     i, j, k = [int(i), int(j), int(k)]
     result = beautifulDays(i, j, k)
     print result
